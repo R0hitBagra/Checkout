@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Checkout </title>
+  </head>
+  <body style="background-color:#4fc8d3">
+    <div class="main">
+        
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="/action_page.php">
+      
+              <div class="row">
+                <div class="col-50">
+    <h1>Checkout</h1>
+    <h2>Contact Information</h2>
+    
+    <label for="email"><i class="fa fa-envelope"></i> Email</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter your email.."><br>
+          <p> <label for="phone number"><i class="fa fa-envelope"></i> Phone Number</label><br>
+            <input type="number" id="phone number" name="phone number" placeholder="Enter your phone.."><br></p>
+           <h2>Shipping Address</h2>
+
+            <label for="name"><i class="fa fa-envelope"></i>Full Name </label><br>
+            <input type="text" id="full name" name="full name" placeholder="Rohit Sharma"><br>
+           <p> <label for="adr"><i class="fa fa-address-card-o"></i>Address</label><br>
+            <input type="text" id="adr" name="address" placeholder="Your Address.."><br></p>
+           <p> <label for="city"><i class="fa fa-institution"></i> City</label><br>
+            <input type="text" id="city" name="city" placeholder="Your city.."><br></p>
+            <div class="row">
+                <div class="col-50">
+                  <label for="country">Country</label><br>
+                  <input type="text" id="country" name="country" placeholder="Your City"><br>
+                </div>
+                <div class="col-50">
+                 <p> <label for="postal cade">Postal Code</label><br>
+                  <input type="number" id="postal code" name="postal code" placeholder="Your postal code.."></p>
+                </div>
+              </div>
+        </div>
+
+
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Save this information for next time<br>
+              </label>
+              <div class="button">
+              <input type="submit" value="Continue " class="btn">
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+      <div class="col-25">
+        <div class="container">
+            <div class="rectangle">
+            <h4>
+          <div class="content img">
+         <img src="backpack.png" alt=" "/> <span class="price"><br>
+            <div class="info">
+                Vintage Backbag<br>
+                $54.99
+                <div class="number-input">
+                    <button  onclick="this.parentNode.querySelector('input[type=number]').stepDown()" >-</button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button   onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
+                  </div>
+            </div>
+          </div>
+          <div class="content img2">
+
+         <p><img src="levi.png" alt=" "/></p>
+         <div class="imf">
+            Levi Shoes<br>
+            $74.99
+            <div class="number-input">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" >-</button>
+                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
+              </div>
+         </div>
+          </div>
+          <hr>
+          <p>Shipping &emsp; &emsp; &emsp; &emsp; $19</p>
+          <p>Total <span class="price" style="color:Gre">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$148</b></span></p>
+            </h4>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

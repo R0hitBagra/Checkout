@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+.content img{
+    height: 135.9137120157251px;
+    width: 175.70298827574382px;
+    left: 826.931526184082px;
+    top: 203.47113037109375px;
+    border-radius: 0px;
+}
+.col-25{
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    padding: 0 16px;
+    position: absolute;
+width: 383px;
+height: 535px;
+left: 817px;
+top: 70px;
+  }
+  .button{
+    position: absolute;
+width: 166px;
+height: 54px;
+left: 539px;
+top: 686px;
+  }
+  .main{
+    font-family: 'Montserrat', sans-serif;
+  padding-left:200px ;
+  }
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "WARNING";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  .rectangle{
+    height: 520px;
+    width: 250px;
+    background-color: rgb(245, 106, 13);
+  }
